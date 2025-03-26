@@ -1,0 +1,56 @@
+.heroContainer {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 2rem;
+  }
+  
+  .textContainer {
+    max-width: 800px;
+    padding-right: 1.5rem;
+  }
+  
+  h1 {
+    font-size:3.0em;
+    font-weight: bold;
+    color: #333;
+    
+  }
+  
+  p {
+    font-size: 1.7rem;
+    margin-top: 20px;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .problemList {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.3rem;
+    color: #666;
+  }
+  
+  .problemList li {
+    margin-bottom: 0.3rem;
+  }
+  
+  .createRecipeBtn {
+    display: block;
+    
+    padding: 10px 200px;
+    background-color: #d6b6b6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-decoration: none;transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .createRecipeBtn:hover {
+    background-color: #c5a6a6;
+    text-decoration: none;
+    
+  }
+  

@@ -1,0 +1,160 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1e1a17;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.title {
+  font-family: 'Cursive', sans-serif;
+  color: #e0d5c8;
+  font-size: 20px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  font-family: 'Cursive', sans-serif;
+  color: #e0d5c8;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.language-switcher {
+  font-family: 'Cursive', sans-serif;
+  color: #e0d5c8;
+  background-color: transparent;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Remove default arrow for IE */
+.language-switcher::-ms-expand {
+  display: none;
+}
+
+/* Profile Section */
+.profile-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Dropdown */
+.profile-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-dropdown-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Dropdown Items */
+.dropdown-item {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.2s, color 0.2s;
+  border-radius: 4px;
+}
+
+.dropdown-item:hover {
+  background-color: #5c3d2e;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Logout Button */
+.btn {
+  display: block;
+  padding: 10px 25px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.2s, color 0.2s;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #5c3d2e;
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-icon {
+  margin-right: 8px; /* Adjust spacing between icon and text */
+  color: #5c3d2e; /* Adjust icon color as desired */
+}
+.dropdown-icon:hover {
+  margin-right: 8px; /* Adjust spacing between icon and text */
+  color: #fff; /* Adjust icon color as desired */
+}

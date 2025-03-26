@@ -1,0 +1,142 @@
+/* General Container */
+div.h2 {
+  font-size: 1.5rem;
+}
+
+.dish-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Dish Title */
+.dish-title-large {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+/* Dish Image */
+.dish-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.dish-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Ingredients Grid */
+.ingredients-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.ingredient-card {
+  text-align: center;
+}
+
+.ingredient-card img {
+  max-width: 80px;
+}
+
+.ingName {
+  font-size: 1.2rem;
+}
+
+/* Equipment */
+.equipment-list {
+  margin: 20px 0;
+}
+
+.equipment-name p {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* Instructions */
+.instructions-list {
+  list-style: decimal inside;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 20px 0;
+  padding-left: 20px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+/* Nutrition Grid */
+.nutrition-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.nutrition-card {
+  background: #f0f0f0;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nutiName {
+  font-size: 1.2rem;
+}
+
+/* Suggestions Section */
+.suggestions-grids {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Recipe Card */
+.recipe-cards {
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.recipe-cards img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.recipe-cards h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* View Recipe Button */
+.view-recipes {
+  display: inline-block;
+  background: #5c3d2e;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.view-recipes:hover {
+  background: #a67c52;
+  transform: scale(1.05);
+}

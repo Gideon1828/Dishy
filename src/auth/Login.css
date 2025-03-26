@@ -1,0 +1,105 @@
+/* Login Page Styling */
+.login-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Left side - Image section */
+  .login-image {
+    flex: 1;
+    background: url('auth/img_login.png') center/cover no-repeat;
+    position: relative;
+    min-height: 70vh;
+    margin-top: 0px;
+  }
+  
+  
+  
+  /* Right side - Form section */
+  .login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: #f8f8f8;
+  }
+  
+  .login-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    margin: 1rem 0;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Button */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a3e3e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #3b3232;
+  }
+  
+  /* Footer Links */
+  .login-footer {
+    margin-top: 1rem;
+  }
+  
+  .login-footer p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .login-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .back-home {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+  }
+  

@@ -1,0 +1,122 @@
+.results-container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+.select-filter{
+margin-top: 25px;
+    background: #5c3d2e;
+    color: white;
+    padding: 16px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-right: 20px;
+  }
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #5c3d2e;
+}
+
+.results-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.recipe-card {
+  width: 330px;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.view-recipe {
+  display: inline-block;
+  background: #5c3d2e;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.view-recipe:hover {
+  background: #a67c52;
+  transform: scale(1.05);
+}
+
+.load-more-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: #b67656;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.load-more-btn:hover {
+  background: #a67c52;
+  transform: scale(1.05);
+}
+
+.end-message {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Filter dropdown */
+.filter-container {
+  display: flex;
+  justify-content: flex-end; /* Move to the right */
+  align-items: center;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+
+.filter-container label {
+  font-weight: bold;
+  margin-right: 10px;
+  
+}
+
+.filter-container select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.filter-container select:hover {
+  border-color: #a67c52;
+}

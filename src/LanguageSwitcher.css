@@ -1,0 +1,15 @@
+.language-switcher {
+    font-family: 'Cursive', sans-serif;
+    color: #e0d5c8;
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Optional: remove default arrow if desired (browser-specific) */
+  .language-switcher::-ms-expand {
+    display: none;
+  }
+  
